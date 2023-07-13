@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    background-color: black;
+   
+}
+
+.background {
+    background-image: url("/public/gif2.gif");
+    background-size: cover;
+  }
+  
