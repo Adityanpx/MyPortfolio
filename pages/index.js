@@ -11,6 +11,7 @@ const index = () => {
    
     >
     <Navbar/>
+    
     <div className='flex  font-bold text-2xl mx-auto  text-center justify-center mt-8'>
           <span id='' className=" border-b-4 border-black ml-4">ABOUT ME</span>
           <span id='' className="ml-6 border-b-4 border-black">PROJECT</span>
@@ -32,8 +33,7 @@ const index = () => {
         <img src='gif4.gif' className=' md:-mt-20'/>
         </div>
 
-       
-       
+        
     </div>
   )
 }

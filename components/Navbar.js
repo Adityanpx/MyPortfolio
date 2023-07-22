@@ -4,7 +4,7 @@ import {FaGithub} from 'react-icons/fa'
 import {BsLinkedin} from 'react-icons/bs'
 export default function Navbar() {
   return (
-    <header className=' bg-[#222222]  border-b-2 border-white flex justify-between mx-auto'> 
+    <header className='  bg-[#222222]  border-b-2 border-white flex justify-between mx-auto'> 
 <div className='flex '>
   
   <div className=' items-center flex text-5xl font-serif  text-white space-x-5'>
@@ -18,11 +18,11 @@ export default function Navbar() {
   </div>
 </div>
 
-<img src='gif1.gf' className=''/>
-<div className='flex '>
-<BsLinkedin className='text-white text-4xl mt-14 mr-4'/>
-<FiInstagram className='text-white text-4xl mt-14 mr-4'/>
-<FaGithub className='text-white text-4xl mt-14 mr-10 '/>
+
+<div className='flex mt-3   '>
+<BsLinkedin className='text-white text-4xl mt-10 mr-4'/>
+<FiInstagram className='text-white text-4xl mt-10 mr-4'/>
+<FaGithub className='text-white text-4xl mt-10 mr-10 '/>
 </div>
 
     </header>
